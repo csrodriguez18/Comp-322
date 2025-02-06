@@ -1,0 +1,200 @@
+h2 {
+    
+    color:#518079;
+    font-family:courier
+}
+
+#content {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+/*  . + name = class
+    # + name = id 
+
+    only 1 id per name and class can be used for multiple things 
+    
+    
+    selectors are #ID, * , .class, element */
+
+			    /* Center the button */
+				.center-button {
+                    display: block;
+                    margin-top: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 15px 30px; /* Adjust the size of the button */
+                    font-size: 18px; /* Adjust the font size */
+                    background-color: #79947b; /* Background color for the button */
+                    color: white; /* Text color */
+                    border: none; /* Remove the border */
+                    border-radius: 5px; /* Optional: rounded corners */
+                    text-align: center;
+                    text-decoration: none; /* Remove underline from link */
+                    width: fit-content; /* Make the width fit the content inside */
+                }
+    
+                /* Style when hovering over the button */
+                .center-button:hover {
+                    background-color: white; /* Change background color when hovered */
+                }
+    
+    
+                        /* Basic styling for the navigation bar */
+                        body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+    
+            .topnav {
+                background-color: #65716a;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                list-style-type: none; /* Removes bullet points */
+                margin: 50;
+                padding: 0;
+                gap: 500px
+            }
+
+
+            .topnav ul li a:hover {
+                background-color: #c7cfc5;
+                color: black;
+                border-radius: 0px;
+            }
+
+
+            .topnav ul li {
+                padding: 0px 0px;
+            }
+
+
+
+            .topnav ul li a {
+                text-decoration: none;
+                color: white;
+                padding: 5px 5px;
+                display: block; /* Makes the whole area clickable */
+                padding: 15px 30px; 
+            }
+
+
+            .topnav-intro {
+                background-color: #47505b;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-around;
+                padding: 10px 0;
+            }
+
+
+
+            .topnav-intro a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 20px;
+                text-align: center;
+            }
+
+
+
+            .topnav-intro a:hover {
+                background-color: #808e9e;
+                color: black;
+                
+            }
+
+
+
+    
+            .topnav a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 20px;
+                text-align: center;
+            }
+    
+            .topnav a:hover {
+                background-color: #3f453c;
+                color: black;
+            }
+
+
+            /* Center the table */
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%; /* Adjust this to make the table bigger or smaller */
+            }
+
+            /* Increase the font size of the table */
+            th, td {
+                font-size: 18px; /* Adjust the font size */
+                padding: 10px;
+            }
+
+            /* Make the header row background color a little different for contrast */
+            th {
+                background-color: #47505b;
+                color: white
+            }
+
+            /* Optional: style for table borders */
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            
+
+            /* Center the button */
+            .center-button {
+                display: block;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 15px 30px; /* Adjust the size of the button */
+                font-size: 18px; /* Adjust the font size */
+                background-color: #a6b8d3; /* Background color for the button */
+                color: white; /* Text color */
+                border: none; /* Remove the border */
+                border-radius: 5px; /* Optional: rounded corners */
+                text-align: center;
+                text-decoration: none; /* Remove underline from link */
+                width: fit-content; /* Make the width fit the content inside */
+            }
+
+            /* Style when hovering over the button */
+            .center-button:hover {
+                background-color: white; /* Change background color when hovered */
+            }
+
+
+            .topnav-button{
+                background-color: #65716a;
+                color: black;
+                font-size: 25px;
+                border: none
+
+            }
+
+            .topnav-button2{
+                background-color: #47505b;
+                color: black;
+                font-size: 25px;
+                border: none
+
+            }
+
+
+
